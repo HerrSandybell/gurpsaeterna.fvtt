@@ -17,31 +17,189 @@
     },
     "character": {
       "templates": ["base"],
-      "biography": "",
       "attributes": {
         "level": {
           "value": 1
         }
       },
-      "abilities": {
-        "str": {
-          "value": 10
+      "biography": "",
+      "meta": {
+        "player": {
+          "label": "Player",
+          "value": ""
         },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
+        "Points": {
+          "label": "Character Points",
+          "value": 150
         }
+      },
+      "description": {
+        "height": {
+          "label": "Height",
+          "value": ""
+        },
+        "weight": {
+          "label": "Weight",
+          "value": ""
+        },
+        "Eyes": {
+          "label": "Eyes",
+          "value": ""
+        },
+        "hair": {
+          "label": "Hair",
+          "value": ""
+        },
+        "skin": {
+          "label": "Skin",
+          "value": ""
+        },
+        "size": {
+          "label": "Size",
+          "value": ""
+        },
+        "techLevel": {
+          "label": "TL",
+          "value": ""
+        },
+        "age": {
+          "label": "Age",
+          "value": ""
+        },
+        "race": {
+          "label": "Race",
+          "value": "Human"
+        },
+        "gender": {
+          "label": "Gender",
+          "value": ""
+        }
+      },
+      "primaryAttributes": {
+        "strength": {
+          "label": "ST",
+          "value": 10,
+          "cost": 8
+        },
+        "dexterity": {
+          "label": "DX",
+          "value": 10,
+          "cost": 20
+        },
+        "intelligence": {
+          "label": "IQ",
+          "value": 10,
+          "cost": 10
+        },
+        "health": {
+          "label": "HT",
+          "value": 10,
+          "cost": 10
+        },
+        "power": {
+          "label": "QN",
+          "value": 10,
+          "cost": 10
+        },
+        "charisma": {
+          "label": "CH",
+          "value": 10,
+          "cost": 5
+        }
+      },
+      "secondaryAttributes": {
+        "perception": {
+          "label": "Per",
+          "value": 10,
+          "cost": 10
+        },
+        "willpower": {
+          "label": "Will",
+          "value": 10,
+          "cost": 10
+        },
+        "basicSpeed": {
+          "label": "Speed",
+          "value": 5,
+          "cost": 5
+        },
+        "basicMove": {
+          "label": "Basic Move",
+          "value": 5,
+          "cost": 5
+        },
+        "swimMove": {
+          "label": "Swimming Move",
+          "value": 5,
+          "cost": 5
+        },
+        "airMove": {
+          "label": "Aerial Move",
+          "value": 0,
+          "cost": 5
+        },
+        "lift": {
+          "label": "Basic Lift",
+          "value": 0,
+          "cost": 5
+        }
+      },
+      "resources": {
+        "hp": {
+          "label": "HP",
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "cost": 5
+        },
+        "fp": {
+          "label": "FP",
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "cost": 5
+        },
+        "mp": {
+          "label": "MP",
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "cost": 5
+        }
+      },
+      "damage": {
+        "thrust": {
+          "label": "Basic Thrust",
+          "Value": ""
+        },
+        "swing": {
+          "label": "Basic Swing",
+          "Value": ""
+        }
+      },
+      "skills": {
+        "name": "",
+        "difficulty": ["E", "A", "H", "VH"],
+        "attribute": [],
+        "default": "",
+        "rsl": "",
+        "sl": 0,
+        "description": "",
+        "notes": ""
+      },
+      "techniques": {
+        "name": "",
+        "difficulty": ["A", "H"],
+        "skill": "",
+        "rl": "",
+        "sl": "",
+        "Description": ""
+      },
+      "advantages": {
+        "type": ["Advantage", "Disadvantage"],
+        "points": 0,
+        "description": "",
+        "notes": ""
       }
     }
   },
