@@ -1,7 +1,7 @@
-#GURPS 4e: Aeterna System for Foundry VTT.
+# GURPS 4e: Aeterna System for Foundry VTT.
 
-A custom system for (Foundry VTT)[https://foundryvtt.com/].
+A custom system for [https://foundryvtt.com/](Foundry VTT).
 
-##Credits
+## Credits
 
-This project is built upon previous work called (Simple Worldbuilding by Atropos)[https://gitlab.com/foundrynet/worldbuilding].
+This project is built upon previous work called [https://gitlab.com/foundrynet/worldbuilding](Simple Worldbuilding by Atropos).
